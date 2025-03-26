@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*RESET BÁSICO*/
+*, *::after, *::before{margin:0;padding:0;box-sizing:border-box;border:none;outline:none;text-decoration: none;}
+
+/*DEFININDO VARIAVEIS GLOBAIS*/
+:root {
+
+    /*FONTES*/
+    --fonte-texto: "Roboto", sans-serif;
+    --fonte-titulos: Helvetica,sans-serif;
+    --cor-texto: #F1F1FA;
+    --cor-titulo: #F05A00;
+    --cor-titulo-1: #F05A00;
+
+    /*CORES*/
+    --cor-bg-1: #273A73;
+    --cor-bg-2: #F1F1FA;
+    --cor-bg-3: #95a6db;
+    --bg-light:#FFF;
+    --bg-light-1:#eaece5;
+
+  }
+
+/****GLOBAL****/
+/*CUSTOMIZAÇÃO DE TAGS, CORES*/
+
+html, body{height: 100vh;font-size: 100%;}
+body{   
+    font-size: 16px;
+    font-family:var(--fonte-texto); 
+    line-height: 1.625em;
+    background-color: var(--cor-bg-1) ;
+    color: var(--cor-texto);
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+}
+ul li{list-style: none; padding: 5px;}
+li{line-height: 1.625em;}
+img{max-width: 100%;display: block;margin: auto;border-radius:5px;}
+
+h1,h2,h3,h4,h5,h6{font-family:var(--fonte-titulos);color: var(--cor-titulo);text-align: center;text-shadow: 1px 1px 2px var(--cor-bg-1);line-height: 1.6em;}
+h1{font-size: 1.9em;}
+h2{font-size: 1.8em;}
+h3{font-size: 1.6em;}
+h4{font-size: 1.4em;}
+
+
+a{text-decoration: none;color:var(--cor-texto);}
+address{font-style: normal !important;}
+
+p{
+    margin-bottom: 0.9em; 
+    color: var(--cor-texto);
+    text-align:left; 
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: keep-all;
+}
+
+header img{
+    border-radius: 8px;
+
+}
+
+/* section{
+} */
+
+main{
+    background: #f0f0f0;
+}
+
+/* footer{} */
+
+footer h1,h2,h3,p,a{
+    color:#fff;
+}
+
+#copyright{
+    border-top: 1px solid var(--cor-titulo);
+    font-size: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+/****CLASSES AUXILIARES****/
+
+/*CONTAINER centraliza e define tamanho do width em %*/
+.container{width:95%;margin: 0 auto;overflow: hidden;}
+
+
+
+/* CLASSES AUXILIARES */
+.container-flex{display: flex;}
+.flex-itens{flex:1;}
+
+/* PRODUTOS */
+#produtos{
+    padding: 1em;
+    background-color: var(--cor-bg-2);
+    
+}
+.produto-item{
+    background-color: #95a6db;
+    padding: 1em;
+}
+
+/* RODAPE*/
+#rodape{
+    text-align: center;
+}
+
+
