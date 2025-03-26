@@ -88,21 +88,30 @@ footer h1,h2,h3,p,a{
 /*CONTAINER centraliza e define tamanho do width em %*/
 .container{width:95%;margin: 0 auto;overflow: hidden;}
 
-
-
 /* CLASSES AUXILIARES */
 .container-flex{display: flex;}
 .flex-itens{flex:1;}
 
 /* PRODUTOS */
 #produtos{
-    padding: 1em;
+    /* padding: 1em; */
     background-color: var(--cor-bg-2);
     
 }
 .produto-item{
     background-color: #95a6db;
     padding: 1em;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.produto-item p{
+    color: #000;
+}
+
+.produto-item a{
+    display: block;
+    text-align: center;
 }
 
 /* RODAPE*/
