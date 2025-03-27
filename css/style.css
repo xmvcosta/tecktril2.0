@@ -16,11 +16,12 @@
     --fonte-texto: "Roboto", sans-serif;
     --fonte-titulos: Helvetica,sans-serif;
     --cor-texto: #F1F1FA;
-    --cor-titulo: #001f84;
+    --cor-titulo: #856100;
     --cor-titulo-1: #F05A00;
 
     /*CORES*/
-    --cor-bg-1: #273A73;
+    /* --cor-bg-1: #0050b1; */
+    --cor-bg-1: #011e84;
     --cor-bg-2: #F1F1FA;
     --cor-bg-3: #95a6db;
     --bg-light:#FFF;
@@ -45,39 +46,33 @@ li{line-height: 1.625em;}
 img{max-width: 100%;display: block;margin: auto;border-radius:5px;}
 
 h1,h2,h3,h4,h5,h6{font-family:var(--fonte-titulos);color: var(--cor-titulo);text-align: center;text-shadow: 1px 1px 2px #000;line-height: 1.6em;}
-h1{font-size: 1.9em;}
-h2{font-size: 1.8em;}
-h3{font-size: 1.6em;}
+h1{font-size: 1.8em;}
+h2{font-size: 1.6em;}
+h3{font-size: 1.5em;}
 h4{font-size: 1.4em;}
-
 
 a{text-decoration: none;color:var(--cor-texto);}
 address{font-style: normal !important;}
 
 p{
-    margin-bottom: 0.9em; 
-    color: var(--cor-texto);
-    text-align:left; 
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    word-break: keep-all;
+  margin-bottom: 0.9em; 
+  color: var(--cor-texto);
+  text-align:left; 
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: keep-all;
 }
 
-header img{
-    border-radius: 8px;
+.header-index{
+  /* background-color: red; */
+}
+.header-index img{
+  border-radius: 8px;
 }
 
 main{
-    background: #f0f0f0;
+  background: #f0f0f0;
 }
-
-#copyright{
-    border-top: 1px solid var(--cor-titulo);
-    font-size: .8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
 
 /* PRODUTOS */
 #produtos{
@@ -86,7 +81,7 @@ main{
   padding: 1em;
 }
 .produto-item{
-  background-color: #95a6db;
+  background-color: #809DFF;
   padding: 1em;
   border-radius: 7px;
   margin-top: 1em;
@@ -131,17 +126,21 @@ main{
   }
 
 /* RODAPE*/
-#rodape{
-    
+#rodape-index a{
+  display: block;
+  /* color: red; */
+   
 }
 
-footer h1, h2, h3, p, a{
-  /* color:red; */
-
-}
-
-#rodape-itens p{
+#rodape-itens a, p{
   text-align: center;
 }
 
+#copyright{
+  border-top: 1px solid var(--cor-titulo);
+  font-size: .8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
