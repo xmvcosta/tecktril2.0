@@ -78,6 +78,13 @@ main{
   background: #f0f0f0;
 }
 
+/*QUEM SOMOS - INDEX*/
+#index-quemsomos {padding: 10px;}
+#index-quemsomos p{
+  color: black;
+  text-align: left;
+}
+
 /* PRODUTOS */
 #produtos{
   background-color: var(--cor-bg-2);
@@ -91,8 +98,12 @@ main{
   margin-top: 1em;
 }
 
-.produto-item p, h3 {
+.produto-item p{
   color: #000;
+}
+
+article h3{
+  color:#000;
 }
 
 .produto-item a{
