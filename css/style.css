@@ -14,9 +14,9 @@
 :root {
     /*FONTES*/
     --fonte-texto: "Roboto", sans-serif;
-    --fonte-titulos: Helvetica,sans-serif;
+    --fonte-titulos: "Arial",sans-serif;
     --cor-texto: #F1F1FA;
-    --cor-titulo: #856100;
+    --cor-titulo: #003087;
     --cor-titulo-1: #F05A00;
 
     /*CORES*/
@@ -67,7 +67,7 @@ p{
   padding: 10px;
   align-items: center;
   /* max-width: 1420px; */
-  background-color: red;
+  /* background-color: red; */
   /* justify-content: center; */
 }
 .header-index img{
