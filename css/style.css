@@ -91,7 +91,7 @@ main{
   margin-top: 1em;
 }
 
-.produto-item p{
+.produto-item p, h3 {
   color: #000;
 }
 
@@ -130,18 +130,20 @@ main{
   }
 
 /* RODAPE*/
-#rodape-index{
+footer{
   background-color: #3053D2;
 }
 
-#rodape-index a{
+footer a{
   display: block;
   /* color: red; */
    
 }
 
-#rodape-itens a, p{
+footer a, p, h3{
   text-align: center;
+  color: white;
+  
 }
 
 #copyright{
