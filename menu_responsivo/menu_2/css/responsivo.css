@@ -11,8 +11,10 @@
 		position: absolute;
 	    left: 0;
 	    width: 100%;
-        background-color: #2b4c99;
+        background-color: #0000ff;
         opacity: .9;
+        margin-top: 1rem;
+        flex: 1;
 	}
 
 	header {
