@@ -9,13 +9,34 @@ img{max-width: 100%;display: block;margin: auto;border-radius:5px;}
 
 /*CUSTOMIZAÇÃO DE TAGS, CORES*/
 
+/*DEFININDO VARIAVEIS GLOBAIS*/
+:root {
+    /*FONTES*/
+    --fonte-texto: "Roboto", sans-serif;
+    --fonte-titulos: "Arial",sans-serif;
+    --cor-texto: #F1F1FA;
+    --cor-titulo: #0000ff;
+    --cor-titulo-1: #F05A00;
+
+    /*CORES*/
+    /* --cor-bg-1: #0050b1; */
+    --cor-bg-1: #3053D2;
+    --cor-bg-2: #F1F1FA;
+    --cor-bg-3: #95a6db;
+    --cor-bg-4: #f0f0f0;
+    --cor-bg-teste: red;
+    --bg-light:#FFF;
+    --bg-light-1:#eaece5;
+  }
+
+
 html, body{height: 100vh;font-size: 100%;}
 
 body{   
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-titulos);
     line-height: 1.5em;
-    background-color: #f0f0f0 ;
+    background-color: var(--cor-bg-teste) ;
     color: black;
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
@@ -26,6 +47,13 @@ h1 {
     font-size: 24px;
     margin: 15px 0;
     color: #003087;
+  }
+
+  h2{
+    color: red;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    line-height: 1.6em;
   }
 
 p{
@@ -86,12 +114,18 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
 
 /*RODAPE*/
 #rodape-index{
-    background-color: #0000ff;
+    background-color: #3053D2;
     color: white;
     text-shadow: 1px 1px #222;
+    text-align: center;
 }
 
 #rodape-index a{
+    color: white;
+}
+
+#rodape-index p{
+    text-align: center;
     color: white;
 }
 
