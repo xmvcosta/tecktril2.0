@@ -33,7 +33,7 @@ img{max-width: 100%;display: block;margin: auto;border-radius:5px;}
 html, body{height: 100vh;font-size: 100%;}
 
 body{   
-    font-size: 16px;
+    font-size: 1em;
     font-family: var(--fonte-titulos);
     line-height: 1.5em;
     background-color: var(--cor-bg-1) ;
@@ -45,7 +45,7 @@ body{
 
 h1 {
     /* text-align: center; */
-    font-size: 24px;
+    font-size: 1.5em;
     margin: 15px 0;
     color: #003087;
   }
