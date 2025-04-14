@@ -118,6 +118,43 @@ main{
     background-color: var(--cor-bg-4);
 }
 
+/*PRODUTOS*/
+.produto-item{background-color: red;}
+.produto-item a{
+    display: block;
+    text-align: center;
+  }
+
+.btn {
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 13px;
+    text-align: center;
+    transition: background-color 0.3s;
+    }
+    
+    .btn-saibamais {
+      background-color: #003087;
+      color: white;
+    }
+    
+    .btn-saibamais:hover {
+      background-color: #0056b3;
+      color: white;
+    }
+    
+    .btn-whatsapp {
+      background-color: #25d366;
+      color: #000;
+    }
+    
+    .btn-whatsapp:hover {
+      background-color: #1ebe56;
+    }
+  
+
 /*RODAPE*/
 #rodape-index{
     /* background-color: #3053D2; */
