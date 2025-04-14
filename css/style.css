@@ -124,6 +124,12 @@ main{
     background-color: var(--cor-bg-4);
 }
 
+
+/*INDEX*/
+#index-quemsomos{
+  background-color: #95a6db;
+}
+
 /*PRODUTOS*/
 .produto-item{background-color: var(--bg-light-1);}
 .produto-item a{
