@@ -1,18 +1,24 @@
 /****RESET BÁSICO****/
 /*RESET BÁSICO*/
-*, *::after, *::before{margin:0;padding:0;box-sizing:border-box;border:none;outline:none;text-decoration: none;}
+*, *::after, *::before{margin:0;padding:0;box-sizing:border-box;border:none;outline:none;text-decoration: none;word-break: break-word;}
 
-img{max-width: 100%;display: block;margin: auto;border-radius:5px;}
+img{max-width: 100%;display: block;margin: auto;}
 
 /*CONTAINER centraliza e define tamanho do width em %*/
 .container{width:95%;margin: 0 auto;overflow: hidden;}
-
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1em;
+  gap: 3px;
+}
 /*CUSTOMIZAÇÃO DE TAGS, CORES*/
 
 /*DEFININDO VARIAVEIS GLOBAIS*/
 :root {
     /*FONTES*/
-    --fonte-texto: "Roboto", sans-serif;
+    --fonte-texto: "Verdana", sans-serif;
     --fonte-titulos: "Arial",sans-serif;
     --cor-texto: #F1F1FA;
     --cor-titulo: #0000ff;
@@ -23,7 +29,7 @@ img{max-width: 100%;display: block;margin: auto;border-radius:5px;}
     --cor-bg-1: #3053D2;
     --cor-bg-2: #F1F1FA;
     --cor-bg-3: #95a6db;
-    --cor-bg-4: #f0f0f0;
+    --cor-bg-4: #ccc;
     --cor-bg-teste: red;
     --bg-light:#FFF;
     --bg-light-1:#eaece5;
@@ -35,7 +41,7 @@ html, body{height: 100vh;font-size: 100%;}
 body{   
     font-size: 1em;
     font-family: var(--fonte-titulos);
-    line-height: 1.5em;
+    line-height: 1.4em;
     background-color: var(--cor-bg-1) ;
     text-align: center;
     color: black;
@@ -58,10 +64,10 @@ h2 {
   }
 
 p{
-    margin-bottom: 0.9em; 
+    margin: 0.9em 0; 
     color: black;
     /* text-align:left;  */
-    word-wrap: break-word;
+    /* word-wrap: break-word; */
     overflow-wrap: break-word;
     word-break: keep-all;
   }
@@ -119,7 +125,7 @@ main{
 }
 
 /*PRODUTOS*/
-.produto-item{background-color: red;}
+.produto-item{background-color: var(--bg-light-1);}
 .produto-item a{
     display: block;
     text-align: center;
