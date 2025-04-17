@@ -130,6 +130,7 @@ height: 350px;
   background-color: #95a6db;
   display: flex;
   flex-direction: column;
+  margin: 16px 0;
 }
 
 #index-quemsomos > div{
@@ -137,7 +138,7 @@ height: 350px;
 }
 
 /*PRODUTOS*/
-.produto-item{background-color: var(--bg-light-1);}
+.produto-item{background-color: var(--bg-light-1); margin: 16px 0;}
 .produto-item a{
     display: block;
     text-align: center;
